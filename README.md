@@ -32,10 +32,13 @@
 # 2. CRUD WEB FORMS
 * Basic HTML form and CRUD Web form is present [here](https://github.com/rudyredhat/CRM/tree/main/02-CRUD_Wed_Forms).
 * There are `7` set of CRUD Web Application Operations which are updated one by one with different set of operations.
-* **NOTE:** Just for the Pre-Req part [Check This](https://github.com/rudyredhat/CRM/blob/main/02-CRUD_Wed_Forms/02/crm_application.go).
+* **NOTE:** Just for the Pre-Req part [Check This](https://github.com/rudyredhat/CRM/blob/main/02-CRUD_Wed_Forms/02/crm_application.go#L10).
 
 ## 1 [Basic Web Form](https://github.com/rudyredhat/CRM/blob/main/02-CRUD_Wed_Forms/01/web_forms.go)
-![1](https://github.com/rudyredhat/CRM/blob/main/02-CRUD_Wed_Forms/01/c1.png)
+![1](https://github.com/rudyredhat/CRM/blob/main/02-CRUD_Wed_Forms/01/web_form_sample.png)
 
 ## 2 [CRUD WEB APPLICATION](https://github.com/rudyredhat/CRM/blob/main/02-CRUD_Wed_Forms/02/crm_application.go)
-![2](https://github.com/rudyredhat/CRM/blob/main/02-CRUD_Wed_Forms/02/c2.png)
+![2](https://github.com/rudyredhat/CRM/blob/main/02-CRUD_Wed_Forms/02/crm_application.png)<br />
+
+
+![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)![3](https://github.com/rudyredhat/CRM/blob/main/02-CRUD_Wed_Forms/Thank_You.png)![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
