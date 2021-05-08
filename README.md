@@ -1,4 +1,5 @@
 # CRM
+##  Build a simple web application that can store data in database.
 * CRM, short for **Customer Relationship Management**, is a software that helps businesses foster strong customer relationships and improve sales and retention by having quality conversations with prospects and customers.
 * Below is a  ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Demo Project` ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)  on `CRM` using `golang` taken as a reference from this [book](https://www.packtpub.com/product/learn-data-structures-and-algorithms-with-golang/9781789618501).
 * Project starts from [get_customer_method](https://github.com/rudyredhat/CRM/blob/main/01-Database_Operation/01/get_customer_method.go) which includes all the necessary [`links`](https://github.com/rudyredhat/CRM/blob/main/01-Database_Operation/01/get_customer_method.go#L7) that should be `pre-installed` to create this `sample` project. 
