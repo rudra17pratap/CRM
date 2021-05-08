@@ -14,6 +14,9 @@
 		- To test apache - Open Chrome = http://localhost
 		- To test the program - Open Chrome = http://localhost:8000
 		- Set of templates needs to be created in the same location as per the structure
+	- To test run this file only
+		// go run crm_application.go crm_database_operations.go
+		// and open web browser - http://localhost:8080
 */
 package main
 
@@ -135,3 +138,6 @@ func main() {
 	// http.ListenAndServe(":8000", nil) function to listen on localhost with port 8000
 	http.ListenAndServe(":8000", nil)
 }
+
+// go run crm_application.go crm_database_operations.go
+// and open web browser - http://localhost:8080
