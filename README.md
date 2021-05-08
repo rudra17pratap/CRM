@@ -1,6 +1,6 @@
 # CRM
 * CRM, short for **Customer Relationship Management**, is a software that helps businesses foster strong customer relationships and improve sales and retention by having quality conversations with prospects and customers.
-* Below is a demo project on `CRM` using `golang`.
+* Below is a  ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Demo Project` ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)  on `CRM` using `golang` taken as a reference from this [book](https://www.packtpub.com/product/learn-data-structures-and-algorithms-with-golang/9781789618501).
 * Project starts from [get_customer_method](https://github.com/rudyredhat/CRM/blob/main/01-Database_Operation/01/get_customer_method.go) which includes all the necessary [`links`](https://github.com/rudyredhat/CRM/blob/main/01-Database_Operation/01/get_customer_method.go#L7) that should be `pre-installed` to create this `sample` project. 
 * Just have basic knowledge of `GoLang`. You can look for these `repos` in my `GitHub Profile`. I have created some `notes` for my own `reference`.
   1. [Get Programming With Go](https://github.com/rudyredhat/go_GetProgrammingWithGo) 
