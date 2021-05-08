@@ -1,3 +1,4 @@
+// Only the new part is - UpdateCustomer () method, which will update any customer details using CustomerId
 package main
 
 import (
