@@ -1,4 +1,3 @@
-// Only the new part is - pdateCustomer () method, which will update any customer details using CustomerId
 package main
 
 import (
@@ -102,20 +101,34 @@ func UpdateCustomer(customer Customer) {
 	defer database.Close()
 }
 
+// deletecustomer () to delete any customer
+func deleteCustomer(customer Customer) {
+	var database *sql.DB
+	database = GetConnection()
+	var error error
+	var delete *sql.Stmt
+	delete, error = database.Prepare("DELETE FROM Customer WHERE Customerid=?")
+	if error != nil {
+		panic(error.Error())
+	}
+	delete.Exec(customer.CustomerId)
+	defer database.Close()
+}
+
 // vardiac func implementation
 func main() {
 	var customers []Customer
 	customers = GetCustomers()
-	fmt.Println("Before Update", customers)
+	fmt.Println("Before Delete", customers)
 	var customer Customer
 	customer.CustomerName = "Bibek Kumar"
 	customer.SSN = "2390343"
 	customer.CustomerId = 5
-	UpdateCustomer(customer)
+	deleteCustomer(customer)
 	customers = GetCustomers()
-	fmt.Println("After Update", customers)
+	fmt.Println("After Delete", customers)
 }
 
-// go run update_operation.go
-// Before Update [{5 Alok Kumar 2367343} {4 Amit Kumar 2386343} {3 ARJUN KUMAR 234569} {2 ASHISH MOHANTY 67890} {1 RUDRA PRATAP 12345}]
-// After Update [{5 Bibek Kumar 2390343} {4 Amit Kumar 2386343} {3 ARJUN KUMAR 234569} {2 ASHISH MOHANTY 67890} {1 RUDRA PRATAP 12345}]
+// go run delete_customer.go
+// Before Delete [{5 Bibek Kumar 2390343} {4 Amit Kumar 2386343} {3 ARJUN KUMAR 234569} {2 ASHISH MOHANTY 67890} {1 RUDRA PRATAP 12345}]
+// After Delete [{4 Amit Kumar 2386343} {3 ARJUN KUMAR 234569} {2 ASHISH MOHANTY 67890} {1 RUDRA PRATAP 12345}]
